@@ -1,18 +1,10 @@
 {
-  "name": "ProjectLink",
-  "version": "0.0.0",
-  "description": "Professional Links",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">= 0.10.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/h1t35h/ProjectLink.git"
-  },
-  "author": "Devesh, Hemant, Hitesh",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/h1t35h/ProjectLink/issues"
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "mongoose": "~4.0.1"
   }
 }
