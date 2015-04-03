@@ -23,6 +23,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/scripts', express.static(__dirname + '/node_modules/bootstrap/dist/'));
+app.use('/css', express.static(__dirname + '/public/stylesheets/'));
+//app.use('/images', express.static(__dirname + '/public/images/'));
 
 app.use('/', routes);
 app.use('/users', users);
